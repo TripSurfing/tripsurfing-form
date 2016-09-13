@@ -1,0 +1,47 @@
+body {
+  background-image: url(http://tripsurfing.co/static/img/4.jpg);
+  background-size: cover; }
+
+#tripsurfing-form {
+  background-color: white;
+  margin-top: 30px;
+  padding: 0 15px 30px; }
+  @media (min-width: 601px) and (max-width: 992px) {
+    #tripsurfing-form {
+      margin-top: 40px;
+      padding: 0 25px 30px; } }
+  @media (min-width: 993px) {
+    #tripsurfing-form {
+      margin-top: 50px;
+      padding: 10px 30px 30px; } }
+
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #ff9800 !important;
+  box-shadow: 0 1px 0 0 #ff6d00 !important; }
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #ff9800 !important;
+  box-shadow: 0 1px 0 0 #ff6d00 !important; }
+
+.picker__date-display {
+  background-color: #f57c00 !important; }
+
+.picker__weekday-display {
+  background-color: #ef6c00 !important; }
+
+.picker__day.picker__day--today {
+  color: #f57c00 !important; }
+
+.picker__day.picker__day--today.picker__day--selected {
+  color: white !important; }
+
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
+  background-color: #f57c00 !important; }
+
+.picker__close, .picker__today {
+  color: #f57c00 !important; }
+
+.picker__nav--prev:hover, .picker__nav--next:hover {
+  background: #ffcc80 !important; }
+
+/*# sourceMappingURL=style.css.map */
